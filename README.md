@@ -1,6 +1,6 @@
 # Swahili Legendary System
 
-An e-learning application for learning swahili language online built with MERN stack. 
+An e-learning application for learning swahili language online built with MERN and GraphQL
 
 
 
