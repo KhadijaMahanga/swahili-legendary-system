@@ -35,5 +35,7 @@ app.get("/", (_req, res) => {
 })
 
 // Start the server at port
-app.listen(4000)
-console.log("Running a GraphQL API server at http://localhost:5000/graphql")
+// set port, listen for requests
+const PORT = process.env.PORT || 5000;
+app.listen(PORT)
+console.log(`Running a GraphQL API server at http://localhost:${PORT}/graphql`);
